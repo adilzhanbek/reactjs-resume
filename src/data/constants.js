@@ -2,12 +2,10 @@ export const Bio = {
   name: "Adil Zhanbek",
   roles: [
     "DevOps engineer",
-    "System Administrator",
-    "Site Reliability Engineer",
     "Programmer",
   ],
   description:
-    "I am a Junior DevOps engineer in Abr Tech Almaty",
+    "Здесь вы можете найти обучающие материалы",
   github: "https://github.com/adilzhanbek",
   resume:
     "https://github.com/adilzhanbek/resume/blob/main/new_resume_adil_zhanbek.docx",

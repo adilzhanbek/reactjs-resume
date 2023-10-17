@@ -11,9 +11,10 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
-import Education from "./components/Education";
+import Blog from "./components/Blog/index.js";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import 'semantic-ui-css/semantic.min.css';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -42,7 +43,7 @@ function App() {
           </Wrapper>
           {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
           <Wrapper>
-            {/* <Education /> */}
+            <Blog /> 
             <Contact />
           </Wrapper>
           <Footer />

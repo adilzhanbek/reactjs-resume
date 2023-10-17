@@ -1,0 +1,43 @@
+#blog {
+  background-color: #19212C;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.blog-post {
+  max-width: 100%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.blog-post h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 50px 0;
+}
+
+.blog-post img {
+  max-width: 100%;
+}
+
+.blog-section.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0; /* Reduce the margin */
+}
+
+/* Apply a max-height to the image to reduce its size */
+.blog-section.image img {
+  max-height: 500px; /* Adjust the value as needed */
+  width: auto; /* Maintain the aspect ratio */
+}

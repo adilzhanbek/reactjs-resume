@@ -23,8 +23,8 @@ const Navbar = () => {
           }} />
         </MobileIcon>
         <NavItems>
-          {/* <NavLink href="#about">About</NavLink> */}
-          {/* <NavLink href='#skills'>Skills</NavLink> */}
+          <NavLink href="#about">Обо мне</NavLink>
+          <NavLink href='#blog'>Гайды</NavLink>
           {/* <NavLink href='#experience'>Experience</NavLink> */}
           {/* <NavLink href='#projects'>Projects</NavLink> */}
           {/* <NavLink href='#education'>Education</NavLink> */}
@@ -38,7 +38,7 @@ const Navbar = () => {
             <MobileLink href="#about" onClick={() => {
               setIsOpen(!isOpen)
             }}>About</MobileLink>
-            <MobileLink href='#skills' onClick={() => {
+            <MobileLink href='#blog' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
             <MobileLink href='#experience' onClick={() => {
